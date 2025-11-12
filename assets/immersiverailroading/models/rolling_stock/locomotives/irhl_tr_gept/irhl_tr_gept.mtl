@@ -1,0 +1,82 @@
+# Blender 3.6.0 MTL File: 'None'
+# www.blender.org
+
+newmtl cargobogue
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/common/mvp_bogue_18-100_brown_map.png
+
+newmtl cargobogue.005
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/common/mvp_bogue_18-100_brown_map.png
+
+newmtl controls.001
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/common/mvp_controls_map.png
+
+newmtl couple_map
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/common/mvp_cargocouple.png
+
+newmtl couple_map.006
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/common/mvp_cargocouple.png
+
+newmtl mat1
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/freight/mvp_ir_cargoflat/mvp_cargoflat_map.png
+
+newmtl mat1.005
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/freight/mvp_ir_cargoflat/mvp_cargoflat_map.png
+
+newmtl wheels
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 1
+map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/common/mvp_cargobogue2_map.png
