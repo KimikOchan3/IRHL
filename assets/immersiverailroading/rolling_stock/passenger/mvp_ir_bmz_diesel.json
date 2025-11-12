@@ -1,0 +1,130 @@
+{
+    "name": "BMZ Diesel (16-3001)",
+    "modeler": "Koshmar004",
+    "works": "USSR",
+    "pack": "Matoi Vanilla pack",
+    "model": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/mvp_ir_bmz_diesel_16-3001.obj",
+    "darken_model": "-0.1",
+    "properties": {
+        "weight_kg": 20000,
+        "interior_light_level": 0.8
+    },
+    "passenger": {
+        "slots": 12,
+        "center_x": -0.625,
+        "center_y": 1.71,
+        "length": 7.85,
+        "width": 2.5
+    },
+    "trucks": {
+        "front": 6.28125,
+        "rear": -6.28125
+    },
+    "couplers": {
+        "front_offset": -0.12,
+        "rear_offset": -0.12
+    },
+    "sounds": {
+        "wheels": "sounds/default/mvp_pass_stock_wheels.ogg",
+        "clack": "sounds/default/mvp_clack_wheelset_2-axle.ogg",
+        "controls": {
+            "WIDGET_3": {
+                "engage": "sounds/control/switch/mvp_control_switch_6.ogg",
+                "disengage": "sounds/control/switch/mvp_control_switch_6.ogg",
+                "movePercent": 0.1
+            },
+            "WIDGET_4": {
+                "engage": "sounds/control/switch/mvp_control_switch_6.ogg",
+                "disengage": "sounds/control/switch/mvp_control_switch_6.ogg",
+                "movePercent": 0.1
+            },
+            "WIDGET_9": {
+                "engage": "sounds/control/switch/mvp_control_switch_8.ogg",
+                "disengage": "sounds/control/switch/mvp_control_switch_8.ogg",
+                "movePercent": 0.1
+            },
+			"COUPLER_ENGAGED_1": {
+				"move": "sounds/default/mvp_couple_switch.ogg",
+				"movePercent": 0.01
+			},
+			"COUPLER_ENGAGED_2": {
+				"move": "sounds/default/mvp_couple_switch.ogg",
+				"movePercent": 0.01
+			}
+        }
+    },
+    "animations": [
+        {
+            "control_group": "door1",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d1.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "door2",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d2.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "door3",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d3.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "door4",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d4.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "door5",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d5.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "door6",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d6.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "door7",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/mvp_diesel_d7.anim",
+            "mode": "PLAY_BOTH",
+            "frames_per_tick": 3,
+            "sound": {
+                "start": "sounds/control/door/mvp_controls_door_close_1.ogg"
+            }
+        },
+        {
+            "control_group": "EG",
+            "animatrix": "immersiverailroading:models/rolling_stock/passenger/mvp_ir_bmz_diesel/anim/ducaspirsa.anim",
+            "mode": "LOOP",
+            "frames_per_tick": 3,
+            "sound": {
+                "main": "sounds/diesel/mvp_bmz/engine.ogg"
+            }
+        }
+    ]
+}

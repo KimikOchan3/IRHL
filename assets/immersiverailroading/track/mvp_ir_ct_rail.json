@@ -1,0 +1,19 @@
+{
+  "name": "MVP Rail (Conter rail)",
+  "models": {
+    ">0.2": "immersiverailroading:models/tracks/mvp_ir_ct_rail.obj"
+  },
+       "materials": {
+    "TIE": [{
+      "item": "minecraft:log",
+      "cost": 3
+    },{
+      "item": "ore:ingotIron",
+      "cost": 4
+    }],
+    "RAIL": [{
+      "item": "ore:irRail",
+      "cost": 2
+    }]
+  }
+}

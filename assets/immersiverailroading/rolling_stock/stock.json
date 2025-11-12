@@ -1,0 +1,48 @@
+{
+    "freight": [
+				"mvp_ir_up4",
+				"mvp_ir_cargoflat", 
+				"mvp_ir_boardflat",
+				"mvp_ir_steelflat",
+				"mvp_ir_timber",
+				"mvp_ir_fitflat",
+				"mvp_ir_poluwagon_12-132", 
+				"mvp_ir_hopper", 
+				"mvp_ir_freight",
+				"mvp_ir_freight_break",
+				"mvp_ir_fridge", 
+				"mvp_ir_bmz_16-3000",
+				"mvp_ir_bunker"
+				],
+    "locomotives": [ 
+				"mvp_ir_er2h", 
+				"mvp_ir_er2h_reversed", 
+				"mvp_ir_chme3", 
+				"mvp_ir_chme3_booster",
+				"mvp_ir_2te116", 
+				"mvp_ir_dgku",
+				"mvp_ir_tgm23",
+				"mvp_ir_tem2",
+				"mvp_ir_tem2y",
+				"mvp_ir_m62",
+				"mvp_ir_chs4t",
+				"mvp_ir_vl80c",
+				"mvp_ir_dr1a_motorhead",
+				"mvp_ir_dr1a_motorhead_reversed"
+				],
+    "passenger": [
+				"mvp_ir_amendorf",
+				"mvp_ir_amendorf_baggage",
+				"mvp_ir_bmz_diesel",
+				"mvp_ir_er2m",
+				"mvp_ir_er2m_reversed", 
+				"mvp_ir_er2t",
+				"mvp_ir_dr1a_trailed"
+				],
+    "tank": [
+			"mvp_ir_tank_15-1443",
+			"mvp_ir_tank_15-865"
+			],
+    "tender": [],
+	"hand_car": []
+}

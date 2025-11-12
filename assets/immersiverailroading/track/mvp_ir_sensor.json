@@ -1,0 +1,19 @@
+{
+  "name": "MVP Sensor",
+  "models": {
+    ">0.2": "immersiverailroading:models/utils/mvp_ir_sensor.obj"
+  },
+       "materials": {
+    "TIE": [{
+      "item": "minecraft:log",
+      "cost": 3
+    },{
+      "item": "ore:ingotIron",
+      "cost": 4
+    }],
+    "RAIL": [{
+      "item": "ore:irRail",
+      "cost": 2
+    }]
+  }
+}

@@ -1,0 +1,63 @@
+{
+    "name": "MVP Tank 15-1443",
+    "modeler": "FrozeRain",
+	"works": "USSR",
+    "pack": "Matoi Vanilla pack",
+    "model": "immersiverailroading:models/rolling_stock/tank/mvp_ir_tank_15-1443/mvp_ir_tank_15-1443.obj",
+	"darken_model": "-0.1",
+	"tex_variants": {
+		"mvp_1": "l_mvp_1",
+        "ilyxa_15-1443_a": "l_ilyxa_15-1443_a",
+        "ilyxa_15-1443_b": "l_ilyxa_15-1443_b",
+        "ilyxa_15-1443_c": "l_ilyxa_15-1443_c",
+        "ilyxa_15-1443_d": "l_ilyxa_15-1443_d",
+        "ilyxa_bensin": "l_ilyxa_bensin",
+        "ilyxa_bh": "l_ilyxa_bh",
+        "ilyxa_gray": "l_ilyxa_gray",
+        "ilyxa_natgidro": "l_ilyxa_natgidro",
+        "ilyxa_nth": "l_ilyxa_nth",
+        "ilyxa_red": "l_ilyxa_red",
+        "ilyxa_rzd": "l_ilyxa_rzd",
+        "ilyxa_sovfraht": "l_ilyxa_sovfraht",
+        "ilyxa_transoil": "l_ilyxa_transoil",
+        "ilyxa_transvagon": "l_ilyxa_transvagon",
+        "ilyxa_vtb": "l_ilyxa_vtb",
+        "ilyxa_white": "l_ilyxa_white",
+        "ilyxa_ywg": "l_ilyxa_ywg",
+        "owen_uz": "l_owen_uz"
+	},
+    "properties": {
+        "weight_kg": 23300
+	},
+	"passenger": {
+        "slots": 4,
+        "center_x": 0,
+        "center_y": 4.9,
+        "length": 1.6,
+        "width": 1.0
+    },
+	"tank": {
+        "capacity_l": 71000
+    },
+    "trucks": {
+        "front": 4.34, 
+        "rear": -4.34
+    },
+    "couplers": {
+        "front_offset": -0.14,
+		"rear_offset": -0.14
+    },
+	"sounds": {
+		"wheels": "sounds/default/mvp_freight_stock_wheels.ogg",
+        "controls": {
+            "COUPLER_ENGAGED_1": {
+				"move": "sounds/default/mvp_couple_switch.ogg",
+				"movePercent": 0.01
+			},
+			"COUPLER_ENGAGED_2": {
+				"move": "sounds/default/mvp_couple_switch.ogg",
+				"movePercent": 0.01
+			}
+        }
+	}
+}

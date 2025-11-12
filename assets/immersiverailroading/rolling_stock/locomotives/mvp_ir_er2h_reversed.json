@@ -1,0 +1,111 @@
+{
+	"era": "diesel",
+	"name": "ER-2 Head (Reversed)",
+	"works": "USSR",
+	"model": "immersiverailroading:models/rolling_stock/locomotives/mvp_ir_er2h/mvp_ir_er2h_reversed.obj",
+	"modeler": "FrozeRain",
+	"pack": "Matoi Vanilla pack",
+	"darken_model": "-0.1",
+	"properties": {
+		"fuel_efficiency_%": 72,
+		"fuel_capacity_l": 6000,
+		"horsepower": 5364,
+		"tractive_effort_lbf": 94801,
+		"max_speed_kmh": 130,
+		"weight_kg": 40900,
+		"interior_light_level": 0.8,
+		"linear_brake_control": true,
+		"linked_brake_throttle": false
+	},
+	"passenger": {
+		"slots": 2,
+		"center_x": 0.35,
+		"center_y": 1.8,
+		"length": 9.35,
+		"width": 3.0
+	},
+	"trucks": {
+		"front": 6.62, 
+		"rear": -6.62
+	},
+	"couplers": {
+		"front_offset": -0.14,
+		"rear_offset": -0.14
+	},
+	"sounds": {
+		"wheels": "sounds/electric/mvp_er2/wheels.ogg",
+		"idle": "sounds/electric/mvp_er2/idle.ogg",
+		"bell": "sounds/electric/mvp_er2/bell.ogg",
+		"controls": {
+			"DOOR_1": {
+				"disengage": "sounds/control/door/mvp_control_door_1.ogg"
+			},
+			"DOOR_3": {
+				"disengage": "sounds/control/door/mvp_control_door_1.ogg"
+			},
+			"DOOR_5": {
+				"disengage": "sounds/control/door/mvp_control_door_1.ogg"
+			},
+			"DOOR_7": {
+				"disengage": "sounds/control/door/mvp_control_door_1.ogg"
+			},
+			"DOOR_14": {
+				"disengage": "sounds/control/door/mvp_controls_door_close_1.ogg"
+			},
+			"DOOR_10": {
+				"disengage": "sounds/control/door/mvp_control_slide_door_1.ogg"
+			},
+			"DOOR_12": {
+				"disengage": "sounds/control/door/mvp_control_slide_door_1.ogg"
+			},
+			"TRAIN_BRAKE_1": {
+				"engage": "sounds/control/mvp_control_pnevmo2.ogg"
+			},
+			"REVERSER_1": {
+				"move": "sounds/control/switch/mvp_control_reverser.ogg",
+				"movePercent": 0.3
+			},
+			"THROTTLE_1": {
+				"move": "sounds/control/switch/mvp_control_throttle.ogg",
+				"movePercent": 0.16
+			},
+			"WIDGET_1": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_2": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_3": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_4": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_5": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_6": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_7": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_8": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			},
+			"WIDGET_9": {
+				"move": "sounds/control/switch/mvp_control_switch_6.ogg",
+				"movePercent": 0.01
+			}
+		}
+	}
+}
+
