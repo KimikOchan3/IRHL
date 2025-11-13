@@ -26,30 +26,24 @@
 		"front_offset": -0.15,
 		"rear_offset": -0.15
 	},
-	
+
 	"sounds": {
-		"wheels": "immersiverailroading:irhl/trains/gept/gept_wheels.ogg" ,    
-		"idle": "immersiverailroading:irhl/trains/gept/gept_engine.ogg",
+		"idle": "immersiverailroading:irhl/trains/gept/engine.ogg",
+		"wheels": "immersiverailroading:irhl/trains/gept/wheels.ogg" ,
 		"engine_pitch_range": 0.6,
-		//"clack": "immersiverailroading:sounds/default/clack.ogg",
-		//"couple": "immersiverailroading:sounds/default/coupling.ogg",
-		//"sliding": "immersiverailroading:sounds/default/sliding.ogg",
-		//"flange": "immersiverailroading:sounds/default/flange.ogg",
-		//"flange_min_yaw": 2.5,
-		//"collision": "immersiverailroading:sounds/default/collision.ogg"
-		
+
 		"controls": {
             "REVERSER_1": {
-                    "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
-                    "move": "immersiverailroading:sounds/default/gept_lever_move.ogg",
-                    "movePercent": 0.45,
-					"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg"
+				"engage": "immersiverailroading:sounds/default/lever_engage.ogg",
+				"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
+				"move": "immersiverailroading:sounds/default/lever_move.ogg",
+				"movePercent": 0.45
 			},
             "THROTTLE_1": {
-                    "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
-                    "move": "immersiverailroading:irhl/trains/gept/gept_lever_move.ogg",
-                    "movePercent": 0.125,
-					"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg"
+				"engage": "immersiverailroading:sounds/default/lever_engage.ogg",
+				"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
+				"move": "immersiverailroading:irhl/trains/gept/lever_move.ogg",
+				"movePercent": 0.125
 			}
 		}
 	},
@@ -88,6 +82,4 @@
         "hasRadioEquipment": true,
         "toggle_bell": false
 	}
-	
-	
 }
