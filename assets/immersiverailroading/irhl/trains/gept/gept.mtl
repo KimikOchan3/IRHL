@@ -21,7 +21,7 @@ d 1.000000
 illum 1
 map_Kd mvp_bogue_18-100_brown_map.png
 
-newmtl controls.001
+newmtl controls
 Ns 10.000005
 Ka 1.000000 1.000000 1.000000
 Ks 0.000000 0.000000 0.000000

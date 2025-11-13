@@ -5,7 +5,7 @@
 	"pack": "IRHL",
 
 	"era": "diesel",
-	"sound_dampening_percentage": 0,
+	"sound_dampening_percentage": 1,
 
 	"passenger": {
 		"slots": 7,
@@ -26,6 +26,33 @@
 		"front_offset": -0.15,
 		"rear_offset": -0.15
 	},
+	
+	"sounds": {
+		"wheels": "immersiverailroading:irhl/trains/gept/gept_wheels.ogg" ,    
+		"idle": "immersiverailroading:irhl/trains/gept/gept_engine.ogg",
+		"engine_pitch_range": 0.6,
+		//"clack": "immersiverailroading:sounds/default/clack.ogg",
+		//"couple": "immersiverailroading:sounds/default/coupling.ogg",
+		//"sliding": "immersiverailroading:sounds/default/sliding.ogg",
+		//"flange": "immersiverailroading:sounds/default/flange.ogg",
+		//"flange_min_yaw": 2.5,
+		//"collision": "immersiverailroading:sounds/default/collision.ogg"
+		
+		"controls": {
+            "REVERSER_1": {
+                    "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
+                    "move": "immersiverailroading:sounds/default/gept_lever_move.ogg",
+                    "movePercent": 0.45,
+					"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg"
+			},
+            "THROTTLE_1": {
+                    "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
+                    "move": "immersiverailroading:irhl/trains/gept/gept_lever_move.ogg",
+                    "movePercent": 0.125,
+					"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg"
+			}
+		}
+	},
 
 	"properties": {
 		"fuel_efficiency_%": 210,
@@ -37,15 +64,15 @@
 			"heavyoil:40"
 		],
 
-		"weight_kg": 7000,
-		"horsepower": 1000,
-		"tractive_effort_lbf": 25000,
+		"weight_kg": 10000,
+		"horsepower": 700,
+		"tractive_effort_lbf": 5000,
 		"max_speed_kmh": 80,
 
         "isLinkedBrakeThrottle": true,
         "brake_shoe_material": "STEEL",
 
-        "tiltMultiplier": 0.1,
+        "tiltMultiplier": 0.4,
         "swayMultipler": 0.4,
 
         "interior_light_level": 1.0,
@@ -61,4 +88,6 @@
 			}
 		}
 	}
+	
+	
 }
