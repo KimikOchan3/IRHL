@@ -1,6 +1,6 @@
 # Blender 3.6.0
 # www.blender.org
-mtllib irhl_tr_gept.mtl
+mtllib gept.mtl
 o BOGEY_FRONT_gept
 v 2.208335 0.156250 1.297138
 v 2.208335 0.156250 1.484638
