@@ -1,4 +1,4 @@
-# Blender 3.6.0 MTL File: 'None'
+# Blender 3.6.0 MTL File: 'gept.blend'
 # www.blender.org
 
 newmtl cargobogue
@@ -57,9 +57,9 @@ Ka 1.000000 1.000000 1.000000
 Ks 0.000000 0.000000 0.000000
 Ke 0.000000 0.000000 0.000000
 Ni 1.000000
-d 1.000000
 illum 1
-map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/freight/mvp_ir_cargoflat/mvp_cargoflat_map.png
+map_Kd mvp_cargoflat_map.png
+map_d mvp_cargoflat_map.png
 
 newmtl mat1.005
 Ns 10.000005
@@ -69,7 +69,7 @@ Ke 0.000000 0.000000 0.000000
 Ni 1.000000
 d 1.000000
 illum 1
-map_Kd D:/Minecraft/.minecraft/versions/HBm/resourcepacks/HL2 IR 1.0 by Q3Rl/assets/immersiverailroading/models/rolling_stock/freight/mvp_ir_cargoflat/mvp_cargoflat_map.png
+map_Kd mvp_cargoflat_map.png
 
 newmtl wheels
 Ns 10.000005
