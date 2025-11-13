@@ -54,6 +54,13 @@
 		}
 	},
 
+	"lights": {
+		"HEADLIGHT_1": {
+			"castsLight": true,
+			"lightTex": "immersiverailroading:textures/light.png"
+		}
+	},
+
 	"properties": {
 		"fuel_efficiency_%": 210,
         "fuel_capacity_l": 20000,
@@ -79,14 +86,7 @@
         "snow_layers": 4,
 
         "hasRadioEquipment": true,
-        "toggle_bell": false,
-
-		"lights": {
-			"HEADLIGHT_1": {
-				"castsLight": true,
-				"lightTex": "immersiverailroading:textures/light.png"
-			}
-		}
+        "toggle_bell": false
 	}
 	
 	
