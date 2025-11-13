@@ -15,16 +15,9 @@
 		"width": 3
 	},
 
-	// TODO
 	"pivot": {
-		"front": 5.03,
-		"rear": -5.03
-	},
-
-	// TODO
-	"couplers": {
-		"front_offset": -0.15,
-		"rear_offset": -0.15
+		"front": 2.05043,
+		"rear": -2.05043
 	},
 
 	"sounds": {
