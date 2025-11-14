@@ -1,25 +1,5 @@
 {
   "types" : [
-	"mvp_ir_rail",
-	"mvp_ir_ct_rail",
-	"mvp_ir_ct_end_rail",
-	"mvp_ir_grunt_w",
-	"mvp_ir_cncrtrail",
-	"mvp_ir_cncrt_ct_rail",
-	"mvp_ir_grunt_c",
-	"mvp_ir_elfrail",
-	"mvp_ir_elfpole",
-	"mvp_ir_sensor",
-	"mvp_ir_signal",
-	"mvp_ir_crossbridge",
-	"mvp_ir_oversup",
-	"mvp_ir_overtop",
-	"mvp_ir_overtop_empty",
-	"mvp_ir_rail_bridge",
-	"mvp_ir_bridge_end",
-	"mvp_ir_bridge",
-	"mvp_ir_railswitch",
-	"mvp_ir_deadend",
 	"irhl_proto_monorail",
 	"irhl_monorail_ground"
   ]
