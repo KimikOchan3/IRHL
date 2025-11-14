@@ -1,0 +1,19 @@
+{
+  "name": "IRHL Monorail Prototype",
+  "models": {
+    ">0.2": "immersiverailroading:irhl/tracks/monorail_proto.obj"
+  },
+       "materials": {
+    "TIE": [{
+      "item": "minecraft:log",
+      "cost": 0
+    },{
+      "item": "ore:ingotIron",
+      "cost": 2
+    }],
+    "RAIL": [{
+      "item": "ore:irRail",
+      "cost": 1
+    }]
+  }
+}

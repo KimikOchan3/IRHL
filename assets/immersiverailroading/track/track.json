@@ -19,6 +19,8 @@
 	"mvp_ir_bridge_end",
 	"mvp_ir_bridge",
 	"mvp_ir_railswitch",
-	"mvp_ir_deadend"
+	"mvp_ir_deadend",
+	"irhl_proto_monorail",
+	"irhl_monorail_ground"
   ]
 }
