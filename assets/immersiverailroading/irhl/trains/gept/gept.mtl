@@ -1,39 +1,6 @@
 # Blender 3.6.0 MTL File: 'None'
 # www.blender.org
 
-<<<<<<< Updated upstream
-newmtl cab_map
-Ns 10.000005
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 1
-map_Kd D:/Minecraft/.minecraft/versions/Traintest/resourcepacks/IRHL/assets/immersiverailroading/models/rolling_stock/locomotives/mvp_ir_chme3/mvp_chme3_cab_map.png
-
-newmtl cargobogue
-Ns 10.000005
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 1
-map_Kd mvp_bogue_18-100_brown_map.png
-
-newmtl cargobogue.005
-Ns 10.000005
-Ka 1.000000 1.000000 1.000000
-Ks 0.000000 0.000000 0.000000
-Ke 0.000000 0.000000 0.000000
-Ni 1.000000
-d 1.000000
-illum 1
-map_Kd mvp_bogue_18-100_brown_map.png
-
-=======
->>>>>>> Stashed changes
 newmtl controls
 Ns 10.000005
 Ka 1.000000 1.000000 1.000000
