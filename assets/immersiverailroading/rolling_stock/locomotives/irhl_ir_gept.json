@@ -1,74 +1,74 @@
 {
-	"name": "Platform Train",
-	"model": "immersiverailroading:irhl/trains/gept/gept.obj",
-	"modeler": "Q3RL",
-	"works": "General Electrics",
-	"pack": "IRHL",
-	"era": "diesel",
-	"sound_dampening_percentage": 1,
+    "name": "Platform Train",
+    "model": "immersiverailroading:irhl/trains/gept/gept.obj",
+    "modeler": "Q3RL",
+    "works": "General Electrics",
+    "pack": "IRHL",
+    "era": "diesel",
+    "sound_dampening_percentage": 1,
 
-	"tex_variants": {
-		"black_mesa": "black_mesa",
-		"red_plateu": "red_plateu",
-		"white_forest": "white_forest",
-		"white_forest_dharma": "white_forest_dharma"
-	},
+    "tex_variants": {
+        "black_mesa": "black_mesa",
+        "red_plateu": "red_plateu",
+        "white_forest": "white_forest",
+        "white_forest_dharma": "white_forest_dharma"
+    },
 
-	"passenger": {
-		"slots": 7,
-		"center_x": 0,
-		"center_y": 1.2,
-		"length": 3.2,
-		"width": 3
-	},
+    "passenger": {
+        "slots": 7,
+        "center_x": 0,
+        "center_y": 1.2,
+        "length": 3.2,
+        "width": 3
+    },
 
-	"pivot": {
-		"front": 2.05043,
-		"rear": -2.05043
-	},
+    "pivot": {
+        "front": 2.05043,
+        "rear": -2.05043
+    },
 
-	"sounds": {
-		"idle": "immersiverailroading:irhl/trains/gept/engine.ogg",
-		"wheels": "immersiverailroading:irhl/trains/gept/wheels.ogg" ,
-		"engine_pitch_range": 0.7,
+    "sounds": {
+        "idle": "immersiverailroading:irhl/trains/gept/engine.ogg",
+        "wheels": "immersiverailroading:irhl/trains/gept/wheels.ogg",
+        "engine_pitch_range": 0.7,
 
-		"controls": {
+        "controls": {
             "REVERSER_1": {
-				"engage": "immersiverailroading:sounds/default/lever_engage.ogg",
-				"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
-				"move": "immersiverailroading:irhl/trains/gept/reverse_move.ogg",
-				"movePercent": 0.45
-			},
+                "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
+                "disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
+                "move": "immersiverailroading:irhl/trains/gept/reverse_move.ogg",
+                "movePercent": 0.45
+            },
             "THROTTLE_1": {
-				"engage": "immersiverailroading:sounds/default/lever_engage.ogg",
-				"disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
-				"move": "immersiverailroading:irhl/trains/gept/lever_move.ogg",
-				"movePercent": 0.125
-			}
-		}
-	},
+                "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
+                "disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
+                "move": "immersiverailroading:irhl/trains/gept/lever_move.ogg",
+                "movePercent": 0.125
+            }
+        }
+    },
 
-	"lights": {
-		"HEADLIGHT_1": {
-			"castsLight": true,
-			"lightTex": "immersiverailroading:textures/light.png"
-		}
-	},
+    "lights": {
+        "HEADLIGHT_1": {
+            "castsLight": true,
+            "lightTex": "immersiverailroading:textures/light.png"
+        }
+    },
 
-	"properties": {
-		"fuel_efficiency_%": 210,
+    "properties": {
+        "fuel_efficiency_%": 210,
         "fuel_capacity_l": 20000,
-		"fuel_override": [
-			"lubricant:200",
-			"lightoil:130",
-			"smear:90",
-			"heavyoil:40"
-		],
+        "fuel_override": [
+            "lubricant:200",
+            "lightoil:130",
+            "smear:90",
+            "heavyoil:40"
+        ],
 
-		"weight_kg": 7500,
-		"horsepower": 700,
-		"tractive_effort_lbf": 5000,
-		"max_speed_kmh": 80,
+        "weight_kg": 7500,
+        "horsepower": 700,
+        "tractive_effort_lbf": 5000,
+        "max_speed_kmh": 80,
 
         "isLinkedBrakeThrottle": true,
         "brake_shoe_material": "STEEL",
@@ -81,5 +81,5 @@
 
         "hasRadioEquipment": true,
         "toggle_bell": false
-	}
+    }
 }

@@ -1,6 +1,6 @@
 {
-  "types" : [
-	"irhl_proto_monorail",
-	"irhl_monorail_ground"
-  ]
+    "types": [
+        "irhl_proto_monorail",
+        "irhl_monorail_ground"
+    ]
 }
