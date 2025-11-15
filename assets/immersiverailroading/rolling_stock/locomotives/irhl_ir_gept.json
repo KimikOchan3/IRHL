@@ -50,8 +50,11 @@
 
     "lights": {
         "HEADLIGHT_1": {
-            "castsLight": true,
-            "lightTex": "immersiverailroading:textures/light.png"
+            "texture": "immersiverailroading:irhl/common/textures/rect_light.png"
+        },
+
+        "HEADLIGHT_2": {
+            "texture": "immersiverailroading:irhl/common/textures/rect_light.png"
         }
     },
 
