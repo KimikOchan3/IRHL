@@ -1,5 +1,6 @@
 {
     "locomotives": [
-        "irhl_ir_gept"
+        "irhl_ir_gept",
+        "irhl_ir_mono1"
     ]
 }
