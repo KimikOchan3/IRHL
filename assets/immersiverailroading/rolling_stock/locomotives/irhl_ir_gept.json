@@ -65,7 +65,8 @@
             "lubricant:200",
             "lightoil:130",
             "smear:90",
-            "heavyoil:40"
+            "heavyoil:40",
+            "radwater_fluid:50"
         ],
 
         "weight_kg": 7500,
