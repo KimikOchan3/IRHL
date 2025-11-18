@@ -30,6 +30,7 @@
     "sounds": {
         "idle": "immersiverailroading:irhl/trains/gept/engine.ogg",
         "wheels": "immersiverailroading:irhl/trains/gept/wheels.ogg",
+        "clack": "immersiverailroading:irhl/trains/common/power_clack.ogg",
         "engine_pitch_range": 0.7,
 
         "controls": {
