@@ -16,8 +16,10 @@
 
     "passenger": {
         "slots": 7,
+
         "center_x": 0,
         "center_y": 1.2,
+
         "length": 3.2,
         "width": 3
     },
@@ -40,6 +42,7 @@
                 "move": "immersiverailroading:irhl/trains/gept/reverse_move.ogg",
                 "movePercent": 0.45
             },
+
             "THROTTLE_1": {
                 "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
                 "disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
@@ -56,6 +59,64 @@
 
         "HEADLIGHT_2": {
             "texture": "immersiverailroading:irhl/common/textures/rect_light.png"
+        }
+    },
+
+    "widgets": {
+        "WIDGET_3": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_4": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_5": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_6": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_7": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_8": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_9": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
+        },
+
+        "WIDGET_10": {
+            "TL": {
+                "X": "-0.0026",
+                "Y": "-0.0116"
+            }
         }
     },
 
