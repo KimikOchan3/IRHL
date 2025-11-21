@@ -1,0 +1,62 @@
+{
+    "name": "Razor",
+    "model": "immersiverailroading:irhl/trains/razor/razor.obj",
+    "modeler": "Q3RL",
+    "works": "General Electrics",
+    "pack": "IRHL",
+    "era": "diesel",
+
+    "sound_dampening_percentage": 1,
+
+    // TODO
+    "passenger": {
+        "slots": 7,
+
+        "center_x": 0,
+        "center_y": 1.2,
+
+        "length": 3.2,
+        "width": 3
+    },
+
+    // TODO
+    // "pivot": {
+    //     "front": 2.05043,
+    //     "rear": -2.05043
+    // },
+
+    // TODO
+    "sounds": {
+        "idle": "immersiverailroading:irhl/trains/gept/engine.ogg",
+        "wheels": "immersiverailroading:irhl/trains/gept/wheels.ogg",
+        "clack": "immersiverailroading:irhl/trains/common/power_clack.ogg"
+    },
+
+    "properties": {
+        "fuel_efficiency_%": 130,
+        "fuel_capacity_l": 27000,
+        "fuel_override": [
+            "lubricant:200",
+            "lightoil:130",
+            "smear:90",
+            "heavyoil:40",
+            "radwater_fluid:50"
+        ],
+
+        "weight_kg": 7500,
+        "horsepower": 2800,
+        "max_speed_kmh": 150,
+
+        "isLinkedBrakeThrottle": true,
+        "brake_shoe_material": "STEEL",
+
+        "tiltMultiplier": 0,
+        "swayMultipler": 0.2,
+
+        "interior_light_level": 1.0,
+        "snow_layers": 4,
+
+        "hasRadioEquipment": true,
+        "toggle_bell": false
+    }
+}
