@@ -5,23 +5,19 @@
     "works": "MonoTrain Technologies",
     "pack": "IRHL",
     "era": "diesel",
-    "sound_dampening_percentage": 0.5,
 
-    //"tex_variants": {
-    //    "black_mesa": "black_mesa",
-    //    "red_plateu": "red_plateu",
-    //    "white_forest": "white_forest",
-    //    "white_forest_dharma": "white_forest_dharma"
-    //},
+    "sound_dampening_percentage": 0.5,
 
     "passenger": {
         "slots": 7,
+
         "center_x": 0,
         "center_y": 0.95,
+
         "length": 3.2,
         "width": 3
     },
-    
+
     "couplers": {
         "front_offset": 0.1,
         "rear_offset": 0.1
@@ -45,40 +41,49 @@
                 "move": "immersiverailroading:irhl/trains/gept/reverse_move.ogg",
                 "movePercent": 0.45
             },
+
             "THROTTLE_1": {
                 "engage": "immersiverailroading:sounds/default/lever_engage.ogg",
                 "disengage": "immersiverailroading:sounds/default/lever_disengage.ogg",
                 "move": "immersiverailroading:irhl/trains/gept/lever_move.ogg",
                 "movePercent": 0.125
             },
+
             "WIDGET_16": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_doors_close.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_17": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_doors_close_r.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_AN3": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_exit.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_AN4": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_handrails.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_AN5": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_last.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_AN6": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_objects.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_AN7": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_polite.ogg",
                 "movePercent": 0.01
             },
+
             "WIDGET_AN8": {
                 "move": "immersiverailroading:irhl/trains/mono1/mono_ann_things.ogg",
                 "movePercent": 0.01
